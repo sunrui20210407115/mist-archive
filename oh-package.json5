@@ -1,0 +1,10 @@
+{
+  "modelVersion": "5.0.5",
+  "name": "mist-archive",
+  "version": "1.0.0",
+  "description": "迷雾档案：校园线索推理与多结局探索 App",
+  "main": "",
+  "author": "孙瑞",
+  "license": "Apache-2.0",
+  "dependencies": {}
+}

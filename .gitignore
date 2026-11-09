@@ -1,0 +1,14 @@
+/node_modules
+/oh_modules
+/.hvigor
+/.idea
+/local.properties
+/build
+/entry/build
+/entry/.preview
+/.clangd
+/.clang-format
+/.clang-tidy
+*.log
+*.hap
+*.hsp
