@@ -5,5 +5,9 @@
   "main": "",
   "author": "孙瑞",
   "license": "Apache-2.0",
-  "dependencies": {}
+  "dependencies": {},
+  "devDependencies": {
+    "@ohos/hypium": "1.0.19",
+    "@ohos/hamock": "1.0.0"
+  }
 }
