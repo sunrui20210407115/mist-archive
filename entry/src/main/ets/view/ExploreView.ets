@@ -9,7 +9,10 @@ export struct ExploreView {
   @State activeNodeId: string = '';
 
   aboutToAppear(): void {
-    this.syncActive();
+    this.activeNodeId = this.store.state.currentNodeId;
+    if (this.activeNodeId.length === 0) {
+      this.syncActive();
+    }
   }
 
   nodesOfScene(): EventNode[] {
@@ -65,6 +68,7 @@ export struct ExploreView {
         .enabled(this.isEnabled(choice))
         .onClick(() => {
           this.store.choose(nodeId, choice.id);
+          this.activeNodeId = this.store.state.currentNodeId;
         })
       if (!this.isEnabled(choice)) {
         Text(this.reqText(choice).length > 0 ? this.reqText(choice) : (choice.hint ? choice.hint : '条件不足'))

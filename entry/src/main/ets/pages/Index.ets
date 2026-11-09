@@ -89,7 +89,7 @@ struct Index {
               this.panel = 'finale';
             }
           })
-        } else if (this.panel === 'finale') {
+        } else if (this.panel === 'finale' && this.store.state.stage >= 2) {
           FinaleView({
             store: this.store,
             onBack: () => {
@@ -106,7 +106,9 @@ struct Index {
         Row() {
           this.NavItem('探索', 'explore')
           this.NavItem('线索板', 'board')
-          this.NavItem('终局', 'finale')
+          if (this.store.state.stage >= 2) {
+            this.NavItem('终局', 'finale')
+          }
         }
         .width('100%')
         .height(48)
