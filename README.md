@@ -86,7 +86,14 @@ $env:JAVA_HOME='<DevEcoStudio>\jbr'
 
 ## 录屏
 
-运行录屏：`docs/demo/mist-archive-demo.avi`（MJPEG AVI，630×1360，3 fps，时长约 65 秒，210 帧）。
+运行录屏的两个等价文件（内容完全相同，任选其一）：
+
+| 文件 | 格式 | 说明 |
+| --- | --- | --- |
+| `docs/demo/mist-archive-demo.mp4` | H.264 / MP4 | 通用格式，Windows 媒体播放器、手机、浏览器均可直接打开 |
+| `docs/demo/mist-archive-demo.avi` | MJPEG / AVI | 原始归档文件，部分系统需安装解码器才能播放 |
+
+两个文件的画面均为 630×1360、3 fps、时长约 65 秒、210 帧。
 
 录制方式：模拟器侧以 `snapshot_display` 连续抓取真实屏幕帧，逐帧无损归档后封装为视频，无剪辑、无补帧。内容顺序为：
 
