@@ -95,6 +95,11 @@ $env:JAVA_HOME='<DevEcoStudio>\jbr'
 
 两个文件的画面均为 630×1360、3 fps、时长约 65 秒、210 帧。
 
+在线查看（GitHub 网页）：
+
+- MP4 预览：[mist-archive-demo.mp4](https://github.com/sunrui20210407115/mist-archive/blob/main/docs/demo/mist-archive-demo.mp4) —— 点开后页面中央有播放器，可直接播放；若网络受限，点右上角 Download 下载后用本地播放器打开。
+- AVI 原始文件：[mist-archive-demo.avi](https://github.com/sunrui20210407115/mist-archive/blob/main/docs/demo/mist-archive-demo.avi) —— GitHub 不支持预览该格式，只能点 Download 下载。
+
 录制方式：模拟器侧以 `snapshot_display` 连续抓取真实屏幕帧，逐帧无损归档后封装为视频，无剪辑、无补帧。内容顺序为：
 
 1. 图书馆闭架书库捡起纸屑、向老管理员说明来意、取走备用钥匙、核对磁带标签（线索 3/6）；
