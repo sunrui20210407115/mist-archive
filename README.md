@@ -100,6 +100,11 @@ $env:JAVA_HOME='<DevEcoStudio>\jbr'
 - MP4 预览：[mist-archive-demo.mp4](https://github.com/sunrui20210407115/mist-archive/blob/main/docs/demo/mist-archive-demo.mp4) —— 点开后页面中央有播放器，可直接播放；若网络受限，点右上角 Download 下载后用本地播放器打开。
 - AVI 原始文件：[mist-archive-demo.avi](https://github.com/sunrui20210407115/mist-archive/blob/main/docs/demo/mist-archive-demo.avi) —— GitHub 不支持预览该格式，只能点 Download 下载。
 
+国内网络访问 GitHub 受限时的备用下载地址（jsDelivr 镜像，实测可访问）：
+
+- MP4：<https://cdn.jsdelivr.net/gh/sunrui20210407115/mist-archive@main/docs/demo/mist-archive-demo.mp4>
+- 说明：GitHub 网页的 Download 按钮依赖 `raw.githubusercontent.com`，该域名在部分网络环境下会超时；改用上面的镜像地址可直接下载或在线播放，文件内容与仓库内完全一致。
+
 录制方式：模拟器侧以 `snapshot_display` 连续抓取真实屏幕帧，逐帧无损归档后封装为视频，无剪辑、无补帧。内容顺序为：
 
 1. 图书馆闭架书库捡起纸屑、向老管理员说明来意、取走备用钥匙、核对磁带标签（线索 3/6）；
